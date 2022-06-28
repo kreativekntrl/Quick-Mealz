@@ -73,8 +73,14 @@
     grid-column: 1 / -1;
     background: #ffecb3;
   }
+  footer {
+    text-align: center;
+  }
 
   details p {
     text-transform: none;
     text-align: left;
+  }
+  svg {
+      margin: 10px;
   }

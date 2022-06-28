@@ -1,6 +1,6 @@
 const SignUp = () => {
     return (
-    <form className="form">
+<form className="form">
     <h2>Sign Up</h2>
     <p>already have an account? <a href="">Login here!</a></p>
         <div className="form-group">
