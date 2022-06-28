@@ -1,7 +1,8 @@
 const SignUp = () => {
     return (
 <div>
-    <form>
+    <h2>Sign Up</h2>
+    <form className="form">
         <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>
             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
@@ -18,8 +19,9 @@ const SignUp = () => {
             <label htmlFor="exampleInputPassword">Password</label>
             <input type="password" className="form-control" id="exampleInputPassword" placeholder="Enter password" />
         </div>
+        <button type="submit" className="btn btn-primary">Sign Up</button>
     </form>
 </div>
-    );
+);
 }
 export default SignUp;

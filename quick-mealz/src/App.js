@@ -14,7 +14,7 @@ function App() {
     <NavBar />
   </nav>
   <main className="page-main">
-    <article>
+    <article className="form">
         <SignUp />
     </article>
   </main>

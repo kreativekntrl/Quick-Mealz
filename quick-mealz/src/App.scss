@@ -22,7 +22,7 @@
   
     > * {
       padding: 1rem;
-      text-align: center;
+    //   text-align: center;
     }
   
     @media (max-width: 600px) {
@@ -52,6 +52,12 @@
   .page-main {
     grid-column: 2 / 3;
     background: #dcedc8;
+  }
+  .form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
   }
   .page-footer {
     grid-column: 1 / -1;
