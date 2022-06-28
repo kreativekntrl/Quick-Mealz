@@ -3,12 +3,10 @@
   }
   body {
     background: #e4e4e4;
-    padding: 5px;
     height: 100vh;
     margin: 0;
   
     font: 500 100% system-ui, sans-serif;
-    text-transform: uppercase;
   }
   .page-wrap {
     background: white;
@@ -34,36 +32,48 @@
       }
     }
   }
-
+//header
   .page-header {
     grid-column: 1 / -1;
     background: #ffcdd2;
   }
-  
+//sidebar
   .page-sidebar {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
     background: #e1bee7;
   }
+//nav
   .page-nav {
     grid-column: 2 / 3;
     background: #bbdefb;
   }
+//main
   .page-main {
     grid-column: 2 / 3;
-    background: #dcedc8;
   }
+//form
   .form {
     background-color: white;
     padding: 10px;
     border-radius: 20px;
     margin: 0 auto;
+    box-shadow: 5px 10px 18px #888888;
   }
+  label {
+    margin: 5px 0 5px;   
+  }
+  .submit {
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+  }
+//footer
   .page-footer {
     grid-column: 1 / -1;
     background: #ffecb3;
   }
-  
+
   details p {
     text-transform: none;
     text-align: left;

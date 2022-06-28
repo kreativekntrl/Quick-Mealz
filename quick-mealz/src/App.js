@@ -14,17 +14,17 @@ function App() {
     <NavBar />
   </nav>
   <main className="page-main">
-    <article className="form">
+    <article>
         <SignUp />
     </article>
   </main>
-  <aside className="page-sidebar">
+  {/* <aside className="page-sidebar">
     Aside
-  </aside>
+  </aside> */}
   <footer className="page-footer">
     <Footer />
   </footer>
-    </div>
+</div>
   );
 }
 
