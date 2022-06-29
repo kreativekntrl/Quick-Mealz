@@ -5,14 +5,14 @@ import img3 from '../assets/images/img3.jpg';
 const Aside = () => {
     return (
         <div>   
-            <img src={img1} alt="food" style={{width: "100%", height: "auto"}}>
+            <img src={img1} alt="food" style={{width: "100%", height: "auto", paddingBottom: "8px", borderRadius: "5px"}}>
             </img>
-            <img src={img2} alt="food" style={{width: "100%", height: "auto"}}>
+            <img src={img2} alt="food" style={{width: "100%", height: "auto", paddingBottom: "8px", borderRadius: "5px"}}>
             </img>
-            <img src={img3} alt="food" style={{width: "100%", height: "auto"}}>
+            <img src={img3} alt="food" style={{width: "100%", height: "auto", borderRadius: "5px"}}>
             </img>
-        </div>
-    );
+        </div>  
+    );  
 }
 
 export default Aside;
