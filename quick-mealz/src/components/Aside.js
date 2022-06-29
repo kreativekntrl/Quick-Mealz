@@ -5,11 +5,11 @@ import img3 from '../assets/images/img3.jpg';
 const Aside = () => {
     return (
         <div>   
-            <img src={img1} alt="food" style={{width: "200px", height: "200px"}}>
+            <img src={img1} alt="food" style={{width: "100%", height: "auto"}}>
             </img>
-            <img src={img2} alt="food" style={{width: "200px", height: "200px"}}>
+            <img src={img2} alt="food" style={{width: "100%", height: "auto"}}>
             </img>
-            <img src={img3} alt="food" style={{width: "200px", height: "200px"}}>
+            <img src={img3} alt="food" style={{width: "100%", height: "auto"}}>
             </img>
         </div>
     );
