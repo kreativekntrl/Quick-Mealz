@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 * {
     box-sizing: border-box;
   }
@@ -35,7 +37,10 @@
 //header
   .page-header {
     grid-column: 1 / -1;
-    background: #ffcdd2;
+    background: #ffecb3;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
   }
 //sidebar
   .page-sidebar {
