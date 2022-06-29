@@ -3,6 +3,7 @@ import 'bootstrap';
 import NavBar from './components/NavBar';
 import SignUp from './components/SignUp';
 import Footer from './components/Footer';
+import Aside from './components/Aside';
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
         <SignUp />
     </article>
   </main>
-  {/* <aside className="page-sidebar">
-    Aside
-  </aside> */}
+  <aside className="bg-light page-sidebar">
+    <Aside />
+  </aside>
   <footer className="page-footer">
     <Footer />
   </footer>
