@@ -10,9 +10,9 @@ function App() {
   <header className="page-header">
     QuickMealz
   </header>
-  <nav className="page-nav">
-    <NavBar />
-  </nav>
+  <div className="page-nav">
+    <NavBar className="page-nav" />
+  </div>
   <main className="page-main">
     <article>
         <SignUp />
